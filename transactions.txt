@@ -1,0 +1,6 @@
+Deposited 200.0, Balance: 200.0
+Widthrew 100.0, Balance: 100.0
+Deposited 100000.0, Balance: 100000.0
+Deposited 6969.0, Balance: 6969.0
+Widthrew 10.0, Balance: 6959.0
+Deposited 12.2, Balance: 6971.2
