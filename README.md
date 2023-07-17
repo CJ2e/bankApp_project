@@ -1,13 +1,5 @@
 # Banking App
 # Class Based
-# Withdrawal and Deposit
-# Write the transaction to a python file
-# while True: 
-# input
-# classes
-# open()
-# method
-# properties
 
 This was my second attempt at this project. My first attempt got a little messy.
 I had also forgotten about try, except, which caused some issues as you can probably imagine.
