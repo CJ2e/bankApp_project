@@ -6,3 +6,7 @@ I had also forgotten about try, except, which caused some issues as you can prob
 
 Added a fun twist to __init__ which reads the transaction.txt file, and sets the balance
 as the last recorded balance in the transaction file. got a nice hit of dopamine when that worked xD
+
+---------
+
+Added rounding to balance. Not sure if i have done it correctly but gave it a go regardless

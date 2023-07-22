@@ -4,3 +4,5 @@ Deposited 100000.0, Balance: 100000.0
 Deposited 6969.0, Balance: 6969.0
 Widthrew 10.0, Balance: 6959.0
 Deposited 12.2, Balance: 6971.2
+Deposited 69.999999, Balance: 7041.1999989999995
+Deposited 1.111222, Balance: 7042.31

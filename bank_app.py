@@ -6,7 +6,7 @@ class Bank:
         with open('transactions.txt', 'r') as f:
             last_line = f.readlines()[-1]
         balance_str = last_line.split('Balance: ')[-1].strip()
-        self.balance = float(balance_str)
+        self.balance = round(float(balance_str), 2)
 
     def showOptions(self):
         print('----------------------')
@@ -35,11 +35,11 @@ class Bank:
                 self.log_transaction(f"Deposited {amt}")
 
     def displayBalance(self):
-        print(f"Balance: {self.balance}")
+        print(f"Balance: {round(self.balance, 2)}")
 
     def log_transaction(self, transaction_str):
         with open('transactions.txt', 'a') as f:
-            f.write(f"{transaction_str}, Balance: {self.balance}\n")
+            f.write(f"{transaction_str}, Balance: {round(self.balance, 2)}\n")
 
     def show_log(self):
         with open('transactions.txt', 'r') as f:
